@@ -23,11 +23,11 @@ If `gh` fails, the dial does not appear.
 ## Install
 
 ```
-/plugin marketplace add /path/to/pr-karma
+/plugin marketplace add JaimeSeqLabs/pr-karma
 /plugin install pr-karma-meter@pr-karma
 ```
 
-To install from GitHub, replace `/path/to/pr-karma` with `<owner>/pr-karma`. Start a new session. The dial appears above the prompt after the first fetch.
+To install from a local clone, replace `JaimeSeqLabs/pr-karma` with the path to the clone. Start a new session. The dial appears above the prompt after the first fetch.
 
 ## Uninstall
 
