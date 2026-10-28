@@ -19,7 +19,7 @@ async function searchCount($, query) {
   return exitCode === 0 ? Number(stdout.trim()) : null
 }
 
-// $.store is shared by every session on the machine, so only one of them asks GitHub per period.
+// $.store is this plugin's own, shared by all its sessions on the machine, so only one of them asks GitHub per period.
 async function refresh($) {
   const now = await $.clock.now()
   const week = weekStart(now)

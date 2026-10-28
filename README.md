@@ -1,4 +1,4 @@
-# karma-meter
+# pr-karma-meter
 
 > [!WARNING]
 > This plugin was written with AI (Claude Code). Read the code before you install it.
@@ -24,7 +24,7 @@ If `gh` fails, the dial does not appear.
 
 ```
 /plugin marketplace add /path/to/pr-karma
-/plugin install karma-meter@pr-karma
+/plugin install pr-karma-meter@pr-karma
 ```
 
 To install from GitHub, replace `/path/to/pr-karma` with `<owner>/pr-karma`. Start a new session. The dial appears above the prompt after the first fetch.
@@ -32,8 +32,12 @@ To install from GitHub, replace `/path/to/pr-karma` with `<owner>/pr-karma`. Sta
 ## Uninstall
 
 ```
-/plugin uninstall karma-meter@pr-karma
+/plugin uninstall pr-karma-meter@pr-karma
 /plugin marketplace remove pr-karma
 ```
 
 The second command is optional. It removes the marketplace entry.
+
+## Development
+
+`tsconfig.json` extends `.claude-plugin/types/tsconfig.json`. Claude Code writes that folder each time it loads the plugin from a local folder, so git ignores it. On a fresh clone, install the plugin from the clone (see [Install](#install)) and start a session once before you type-check.
