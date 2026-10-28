@@ -1,0 +1,13 @@
+{
+  "name": "pr-karma",
+  "owner": {
+    "name": "Jaime Muñoz"
+  },
+  "plugins": [
+    {
+      "name": "karma-meter",
+      "source": "./"
+    }
+  ],
+  "description": "Karma meter for Claude Code: PRs you reviewed vs PRs you opened this week"
+}

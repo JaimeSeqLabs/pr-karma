@@ -1,0 +1,6 @@
+{
+  "name": "karma-meter",
+  "version": "0.1.0",
+  "description": "Analog dial above the prompt: PRs you reviewed vs PRs you opened this week",
+  "author": { "name": "Jaime Muñoz" }
+}
