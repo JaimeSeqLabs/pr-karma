@@ -5,6 +5,8 @@
 
 A Claude Code plugin that shows a small analog dial above the prompt. The dial compares the pull requests you reviewed this week with the pull requests you opened this week.
 
+![The meter above the Claude Code prompt: bad karma, 0.8, 10 reviewed / 12 opened](assets/screenshot.png)
+
 - The needle points straight up when you reviewed as many PRs as you opened.
 - The needle moves right (green) when you review more, and left (red) when you open more. At 4x in either direction, the needle stops at the end.
 - The week starts on Monday at 00:00 local time.
